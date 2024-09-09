@@ -12,6 +12,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -32,7 +34,8 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-transform-private-property-in-object": "^7.24.7"
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7",
+    "gh-pages": "^6.1.1"
   },
-  "homepage": "/Users/PC/Desktop/PROGRAMACION/curso-react/curso-react-intro/build/"
+  "homepage": "https://miguelsrz.github.io/react-course-intro/"
 }
