@@ -1,0 +1,35 @@
+.createButton
+{
+    z-index: 100;
+
+    color: black;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    position: absolute;
+    bottom: .5em;
+    right: .5em;
+
+    font-size: 48rem;
+    
+
+    transform: rotate(0);
+    transition: .5s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createButton p{
+    text-align: center;
+}
+
+.createButton:hover
+{
+    cursor: pointer;
+    border-color: var(--color4);
+
+    transform: rotate(225deg);
+}

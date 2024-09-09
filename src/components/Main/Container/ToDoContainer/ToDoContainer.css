@@ -1,0 +1,13 @@
+.container
+{
+    background-color:var(--color1) ;
+    padding: 2em 2em 4em 2em;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    overflow-y: hidden;
+
+}

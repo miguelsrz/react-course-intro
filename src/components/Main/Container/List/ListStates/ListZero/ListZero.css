@@ -1,0 +1,21 @@
+.listZero
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.listZero p
+{
+    font-style: italic;
+    font-size: 16rem;
+}
+.listZero figure img
+{
+    width: 200px;
+    height: 200px;
+}

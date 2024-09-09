@@ -1,0 +1,17 @@
+.filters
+{
+    display: flex;
+    justify-content:baseline;
+    gap: 36px;
+}
+
+.filters>div
+{
+    display: flex;
+    gap: 16px;
+    background-color: var(--color3);
+    border: 2px solid var(--color4);
+    border-radius: 8px;
+    padding: .5em 1em;
+}
+

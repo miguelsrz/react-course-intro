@@ -2,9 +2,11 @@
   "name": "platzi-intro-react-base",
   "version": "0.1.0",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "react": "^18",
     "react-dom": "^18",
-    "react-scripts": "5.0.1",
+    "react-icons": "^5.3.0",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -28,5 +30,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.24.7"
+  },
+  "homepage": "/Users/PC/Desktop/PROGRAMACION/curso-react/curso-react-intro/build/"
 }

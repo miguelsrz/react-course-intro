@@ -1,0 +1,14 @@
+.mainToDo
+{
+    flex-grow: 1;
+
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+
+    overflow-x: hidden;
+
+    display: grid;
+    grid-template-rows: max-content 1fr;
+}

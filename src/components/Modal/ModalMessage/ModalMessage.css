@@ -1,0 +1,73 @@
+.modalMessage
+{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modalOverlay
+{
+    background-color: color-mix(in srgb, var(--color5) 70%, transparent);
+    width: inherit;
+    height: inherit;
+}
+
+.modalMessage section
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 350px;
+    height: 200px;
+
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: var(--color1);
+
+    padding: 1em 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
+}
+
+.modalMessage section h1
+{
+    width: 100%;
+    border-bottom: 1px solid white;
+    text-align: center;
+
+    padding-bottom: .25em;
+    margin-bottom: .5em;
+
+    font-size: 32rem;
+}
+
+.modalMessage section p
+{
+    font-size: 16rem;
+    text-align: center;
+
+}
+
+.modalMessage section button
+{
+    width: 50%;
+    height: 25%;
+    background-color: var(--color5);
+
+    position: absolute;
+    bottom: 2em;
+
+    font-size: 14rem;
+
+    border-radius: 8px;
+}
+
+
+

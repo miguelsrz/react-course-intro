@@ -1,0 +1,80 @@
+
+html
+{
+  font-size: 6.25%;
+
+  display: flex;
+  justify-content:  center;
+}
+
+:root
+{
+  --color1: #030B13;
+  --color2: #071D29;
+  --color3: #082634;
+  --color4: #3EE5C3;
+  --color5: #6A707C;
+}
+
+*
+{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  text-wrap: pretty;
+  border: none;
+  text-decoration: none;
+}
+
+
+
+/* @font-face {
+  font-family: "Rubik" ;
+  src: url(https://fonts.google.com/specimen/Rubik);
+  font-weight: 300, 500, 700;
+  font-style: lighter, normal, bold;
+} */
+
+
+body {
+  position: relative;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 16rem;
+  color: whitesmoke;
+
+  background-color: var(--color1); 
+
+    
+}
+
+button
+{
+  appearance: none;
+  color: white;
+  cursor: pointer;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+#root
+{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  
+}
+
+a
+{
+  color: inherit;
+}

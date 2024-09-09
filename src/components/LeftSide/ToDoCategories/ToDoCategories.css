@@ -1,0 +1,77 @@
+.categories
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    gap: 18px;
+
+    width: 100%;
+    height: 50%;
+
+}
+
+.categories p 
+{
+    font-size: 24rem;
+    font-weight: 500;    
+}
+
+.categoriesList
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    overflow-y: auto;
+    gap: 16px;
+}
+
+.editList
+{
+    background-color: var(--color5);
+    width: 25px;
+    height: 25px;
+    margin-left: auto;
+    border-radius: 8px;
+}
+
+.createList
+{
+    align-self: center;
+    width: 50%;
+    height: max-content;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: var(--color5);
+}
+
+.categorieItem
+{
+    display: flex;
+
+    align-items:center;
+    justify-content:start;
+
+    gap: 16px;
+    
+    padding: 1em 1em;
+
+    min-height: 60px;
+    width: 100%;
+    border: .5px solid white;
+
+    background-color: var(--color3);
+    border-radius: 8px;
+}
+
+.categorieItem li
+{
+    text-align: left;
+    
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+
+    width: 75%;
+
+}
